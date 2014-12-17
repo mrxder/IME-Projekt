@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Unbenanntes Dokument</title>
+<style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+	height:100%;
+	width:100%;
+}
+#wrapper {
+	height:100%;
+	width:100%;
+}
+
+#ring1 {
+	height:100%;
+	width:100%;
+	background-color:#433C33;
+}
+
+#ring2 {
+	position:absolute;
+	left:10px;
+	right:10px;
+	top:10px;
+	bottom:10px;
+	background-color:#837432;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#ring3 {
+	position:absolute;
+	left:8px;
+	right:8px;
+	top:8px;
+	bottom:8px;
+	background-color:#DEC89D;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#control-border {
+	bottom:-10px;
+	position:absolute;
+	background-color:#433C33;
+	height:70px;
+	left:10%;
+	right:10%;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#control-bg {
+	left:10px;
+	right:10px;
+	height:100%;
+	position:absolute;
+	background-color:#CBB484;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#list-container {
+	margin:auto;
+	position:relative;
+	width:95%;
+	height:100%;
+	overflow:scroll;
+}
+
+#list-container ul {
+	list-style-image:url(note.png);
+	list-style-position:outside;
+}
+
+ul li {
+	margin-top:10px;
+	margin-left:40px;
+	
+}
+
+ul a {
+	text-decoration:none;
+	color:#433C33;
+	
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+ul a:hover {
+	color:#837432
+}
+
+#control-container img {
+	max-width:20%;
+	max-height:60px;
+	margin-top:2%;
+}
+
+
+#control-container {
+	text-align:center;
+}
+
+
+
+	
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="ring1">
+    	<div id="ring2">
+        	<div id="ring3">
+            	<div id="list-container">
+            			<ul>
+                			<li><a href="#">Hallo</a></li>
+                    		<li><a href="#">Nils Hoffmann - Balloons (Club Mix).mp3</a></li>
+                    		<li><a href="#">Ohrbooten - Autobahn [HQ].mp3</a></li>
+                    		<li><a href="#">Robin Schulz - Sommernachtstraum [DJ-Mix].mp3</a></li>
+                    		<li><a href="#">Seeed - Aufstehn (official Video).mp3</a></li>
+                    		<li><a href="#">Seeed - Waterpumpee (official Video).mp3</a></li>
+                    		<li><a href="#">The Avener - Fade Out Lines (Official Music Video).mp3</a></li>	
+   	                     	<li><a href="#">Nils Hoffmann - Balloons (Club Mix).mp3</a></li>
+                    		<li><a href="#">Ohrbooten - Autobahn [HQ].mp3</a></li>
+                    		<li><a href="#">Robin Schulz - Sommernachtstraum [DJ-Mix].mp3</a></li>
+                    		<li><a href="#">Seeed - Aufstehn (official Video).mp3</a></li>
+                    		<li><a href="#">Seeed - Waterpumpee (official Video).mp3</a></li>
+                    		<li><a href="#">The Avener - Fade Out Lines (Official Music Video).mp3</a></li>
+                		</ul>
+                  </div>
+                <div id="control-border">
+                	<div id="control-bg">
+                    	<div id="control-container">
+                        	<a href="#"><img src="home.png"></a>
+                            <a href="#"><img src="zuruck.png"></a>
+                            <a href="#"><img src="stop.png"></a>
+                            <a href="#"><img src="vor.png"></a>
+                        </div><!--control-container-end-->
+                    </div><!--control-bg-end-->
+                </div><!--control-border-end-->
+            </div><!--ring3-end-->
+        </div><!--ring2-end-->
+    </div><!--ring1-end-->
+</div><!--wrapper-end-->
+</body>
+</html>
