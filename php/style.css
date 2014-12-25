@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+	height:100%;
+	width:100%;
+}
+#wrapper {
+	height:100%;
+	width:100%;
+}
+
+#ring1 {
+	height:100%;
+	width:100%;
+	background-color:#433C33;
+}
+
+#ring2 {
+	position:absolute;
+	left:10px;
+	right:10px;
+	top:10px;
+	bottom:10px;
+	background-color:#837432;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#ring3 {
+	position:absolute;
+	left:8px;
+	right:8px;
+	top:8px;
+	bottom:8px;
+	background-color:#DEC89D;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#control-border {
+	bottom:-10px;
+	position:absolute;
+	background-color:#433C33;
+	height:9%;
+	min-height:50px;
+	left:10%;
+	right:10%;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#control-bg {
+	left:10px;
+	right:10px;
+	height:100%;
+	
+	position:absolute;
+	background-color:#CBB484;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#list-container {
+	margin:auto;
+	position:relative;
+	width:95%;
+	height:100%;
+	overflow:scroll;
+	
+}
+
+#list-container ul {
+	list-style-image:url(img/note.png);
+	list-style-position:outside;
+}
+
+ul li {
+	margin-top:10px;
+	margin-left:40px;
+	
+}
+
+ul li:last-child {
+	margin-bottom:50px;
+}
+
+ul a {
+	text-decoration:none;
+	color:#433C33;
+	
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+ul a:hover {
+	color:#837432
+}
+
+#control-container img {
+	max-width: 12%;
+	margin-top: 5px;
+	max-height: 88%;
+}
+
+
+#control-container {
+	text-align:center;
+	height: 100%;
+}
+
